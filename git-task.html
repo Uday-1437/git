@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git-task </title>
+    
+    <style>
+        body{
+            background-image: url(https://cdn.thecoolist.com/wp-content/uploads/2016/12/Hong-Kong-China-beautiful-city.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.5;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            border: 1px solid;
+            margin: 200px;
+            height: 60%;
+            background-color: white;
+            border-radius: 8px;
+        
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+        }
+        .abc,input{
+            margin: 10px;
+            border-radius: 20px;
+            padding: 3px;
+            
+        }
+        input{
+            border: 1px solid;
+            background-color: rgb(240, 235, 235);
+        }
+        .mno{
+            width: 43.5%;
+            border-radius: 20px;
+            padding: 4px;
+            border: 1px solid;
+            margin: 10px;
+            background-color: blueviolet;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="xyz">
+            <img style="width: 40%; height: auto;" src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="abc">
+            <h2>Get in touch</h2>
+            <input  type="text" placeholder="name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Message">
+            <button class="mno">Send</button>
+        </div>
+    </section>
+</body>
+</html>
